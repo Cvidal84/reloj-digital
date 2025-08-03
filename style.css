@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reloj-contenedor{
+    background-color: rgb(38, 36, 158);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#hora {
+    font-size: 6em;
+    color: white;
+}
+#fecha {
+    font-size: 2em;
+    color: white;
+}
+.animar {
+    border: rgb(255, 255, 255) 3px solid;
+}
